@@ -1,6 +1,6 @@
 # Finding Lane Lines on the Road
 ### Reflection
-###1. Briefly describe my pipeline for detecting the lane line in the image.
+### 1. Briefly describe my pipeline for detecting the lane line in the image.
 My pipeline consists of 6 steps. 
 
 - The first step is to convert the RGB image into grayscale image. 
