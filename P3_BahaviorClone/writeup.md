@@ -129,7 +129,7 @@ To capture good driving behavior, I first recorded three laps on track one using
 ![center lane](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P3_BahaviorClone/center_1.jpg)
 
 Here is the image after cropping:
-![center lane]()
+![center lane](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P3_BahaviorClone/crop_image.jpg)
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to recovery from the side. These images show what a recovery looks like starting from right to center :
 
