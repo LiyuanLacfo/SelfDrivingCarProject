@@ -92,7 +92,7 @@ The final model architecture (model.py lines 18-24) consisted of a convolution n
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
-![Model Architecture](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P3_BahaviorClone/model_arc.png)
+![Model Architecture](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P3_BahaviorClone/model_arc_1.jpg)
 
 #### 3. Creation of the Training Set & Training Process
 
