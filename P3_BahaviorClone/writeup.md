@@ -90,6 +90,34 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes. The model consists of 6 convolutional layers, 6 pooling layers, 6 dropout layers and 4 fully connected layers. The filter size of convolutional layers are all 3x3. The depth are respectively 36, 48, 64, 128, 128 and 128
 
+| Layer         		|     Description	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| Input         		| 320x160x3 Color image   							| 
+| Cropping         		| 320x65x3 Color image   							| 
+| Convolution 3x3     	| 1x1 stride, same padding, outputs 320x65x36 	|
+| ELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 160x33x36				|
+| Convolution 3x3	    | 1x1 stride, same padding, outputs 160x33x48
+| ELU					   |										|
+| Max pooling  |  2x2 stride, output 80x17x48      									|
+| Convolution 3x3	    | 1x1 stride, same padding, outputs 80x17x64
+| ELU					   |										|
+| Max pooling  |  2x2 stride, output 40x9x64      									|
+| Convolution 3x3	    | 1x1 stride, same padding, outputs 40x9x128
+| ELU					   |										|
+| Max pooling  |  2x2 stride, output 20x5x128      									|
+| Convolution 3x3	    | 1x1 stride, same padding, outputs 20x5x128
+| ELU					   |										|
+| Max pooling  |  2x2 stride, output 10x3x128      							|
+| Convolution 3x3	    | 1x1 stride, same padding, outputs 10x3x128
+| ELU					   |										|
+| Max pooling  |  2x2 stride, output 5x2x128      							|
+| Fully connected		| 1024 neutrons       									|
+| Fully connected		| 100 neutrons       									|
+| Fully connected		| 50 neutrons       									|
+| Fully connected		| 10 neutrons       									|
+| Output				| 1 neutrons       									|
+
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
 ![Model Architecture](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P3_BahaviorClone/model_arc.png)
@@ -99,6 +127,9 @@ Here is a visualization of the architecture (note: visualizing the architecture 
 To capture good driving behavior, I first recorded three laps on track one using center lane driving. Here is an example image of center lane driving:
 
 ![center lane](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P3_BahaviorClone/center_1.jpg)
+
+Here is the image after cropping:
+![center lane]()
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to recovery from the side. These images show what a recovery looks like starting from right to center :
 
