@@ -15,4 +15,8 @@
 
 - ***Keywords***: Simulator, Deep Learning, Convolutional Neural Network
 
+### [P4 Advanced Lane Line Detection](https://github.com/LiyuanLacfo/SelfDrivingCarProject/tree/master/P4_AdvancedDetectionLine)
+- ***Summary***: We use computer vision techniques such as sobel operator, color filter, perspective transform to find the lane lines on the high way.
+- ***Keywords***: Computer Vision, Sobel Operator, HLS color space, Perspective Transform
+
 
