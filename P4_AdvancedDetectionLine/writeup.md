@@ -40,9 +40,11 @@ I start by preparing "object points", which will be the (x, y, z) coordinates of
 
 I then used the output `obj_pts` and `img_pts` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 The distorted image:
+
 ![distorted image](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P4_AdvancedDetectionLine/example_images/distorted_image.jpg)
 
 The undistorted image:
+
 ![undistorted image](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P4_AdvancedDetectionLine/example_images/undistorted_image.jpg)
 
 
@@ -51,10 +53,13 @@ The undistorted image:
 #### 1. Provide an example of a distortion-corrected image.
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
+
 The distorted image:
+
 ![distorted image](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P4_AdvancedDetectionLine/example_images/distorted_image.jpg)
 
 The undistorted image:
+
 ![undistorted image](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P4_AdvancedDetectionLine/example_images/undistorted_image.jpg)
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
