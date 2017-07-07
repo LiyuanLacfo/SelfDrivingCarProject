@@ -1,4 +1,4 @@
-## Writeup Template
+## Writeup
 ---
 
 **Vehicle Detection Project**

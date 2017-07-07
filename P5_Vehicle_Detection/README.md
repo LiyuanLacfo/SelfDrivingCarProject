@@ -1,7 +1,4 @@
-## Writeup Template
----
-
-**Vehicle Detection Project**
+## **Vehicle Detection Project**
 
 The goals / steps of this project are the following:
 
