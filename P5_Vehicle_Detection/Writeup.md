@@ -50,6 +50,10 @@ Here is an example using the `RGB` color space and HOG parameters of `orientatio
 
 ![hog_feature](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P5_Vehicle_Detection/example_images/hog_feature.jpg)
 
+As for the parameters of HOG, the color space I chose was `RGB`. I have tried `YCrCb` and `YUV`, but the performance was bad, since for the test images, I detected a lot of windows bounding non-vehicles. 
+
+For other parameters, `orientations=9`, `cells_per_block=2` and `pixels_per_cell=8`.
+
 #### 2. Explain how you settled on your final choice of HOG parameters.
 
 I tried various combinations of parameters and see whether the outline of the car shape is relatively clear. And after feeding the classifier, I also tuned the parameters to increase the validation accuracy.
@@ -75,6 +79,8 @@ To increase the speed of search, first I get the HOG feature of the whole image.
 Second, instead of setting the overlapping window, I set the `cell_per_step` to control the move of window in unit of cell. I use `cell_per_step = 2` which means the window slides by 2 cells per step. 
 
 Third, the window size is `64x64`. Here I chose that size because the training image is of size `64x64`, and it is convenient to use that size when get the local image HOG feature from the whole image HOG feature.
+
+Fourth, I use 3 different window scales which are 1.3, 1.6 and 1.9. For the smaller vehicles that are far away from the car with camera, we need to keep their size as much as possible, that is why I use 1.3. And for the larger cars, it is good to scale down them to make a good classification. Also the usage of 3 scales makes more boxes for the vehicles and distinguishes cars from non-cars. 
 
 
 #### 2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
