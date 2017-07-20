@@ -18,5 +18,7 @@
 ### [P4 Advanced Lane Line Detection](https://github.com/LiyuanLacfo/SelfDrivingCarProject/tree/master/P4_AdvancedDetectionLine)
 - ***Summary***: We use computer vision techniques such as sobel operator, color filter, perspective transform to find the lane lines on the high way.
 - ***Keywords***: Computer Vision, Sobel Operator, HLS color space, Perspective Transform
-
+### [P6 Extended Kalman Filter](https://github.com/LiyuanLacfo/SelfDrivingCarProject/tree/master/P6_ExtendedKalmanFilter)
+- ***Summary***: We use extended Kalman filter to combine the data from Lidar and Radar.
+- ***Keywords***: Extended Kalman filter, Lidar, Ladar
 
