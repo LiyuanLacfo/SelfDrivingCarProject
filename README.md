@@ -30,4 +30,9 @@
 - ***Summary***: We use particle filter to localize vehicle.
 - ***Keywords***: Particle filter, Localization
 
+### [P9 PID Control](https://github.com/LiyuanLacfo/SelfDrivingCarProject/tree/master/P9_PIDController)
+- ***Summary***: We use PID control to adjust the steering angle.
+- ***Keywords***: PID control
+
+
 
