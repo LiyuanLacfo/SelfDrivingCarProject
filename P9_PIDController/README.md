@@ -7,9 +7,6 @@ Self-Driving Car Engineer Nanodegree Program
 ## P Control
 ![](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P9_PIDController/video/P_control.gif)
 
-## fsdfsdf
-
-
 ## Dependencies
 
 * cmake >= 3.5
