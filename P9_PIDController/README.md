@@ -3,9 +3,9 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 ## PID Control
-![](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif)
+![](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P9_PIDController/video/PID_control.gif)
 ## P Control
-![](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif)
+![](https://github.com/LiyuanLacfo/SelfDrivingCarProject/blob/master/P9_PIDController/video/P_control.gif)
 
 
 ## Dependencies
