@@ -34,5 +34,9 @@
 - ***Summary***: We use PID control to adjust the steering angle.
 - ***Keywords***: PID control
 
+### [P10 Model Predictive Control](https://github.com/LiyuanLacfo/SelfDrivingCarProject/tree/master/P10_MPC)
+- ***Summary***: We use Model Predictive Control to adjust the steering angle and brake/throttle.
+- ***Keywords***: Model Predictive Control, Kinematic Model
+
 
 
