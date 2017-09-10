@@ -38,5 +38,9 @@
 - ***Summary***: We use Model Predictive Control to adjust the steering angle and brake/throttle.
 - ***Keywords***: Model Predictive Control, Kinematic Model
 
+### [P11 Path Planning](https://github.com/LiyuanLacfo/SelfDrivingCarProject/tree/master/P11_PathPlanning)
+- ***Summary***: We use finite state machine to plan the path on the highway.
+- ***Keywords***: Finite State Machine, Frenet Coordinate
+
 
 

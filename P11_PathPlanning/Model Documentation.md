@@ -1,4 +1,4 @@
-##Reflection
+## Reflection
 This is the reflection of the *path planning* project. Here I would describe the details of generating the path.
 
 For the path planning on the highway, we need to decide whether to stay on the current lane or to change to the next lanes. 
