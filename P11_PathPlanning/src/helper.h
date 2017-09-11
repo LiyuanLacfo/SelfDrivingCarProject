@@ -26,7 +26,7 @@ struct Vehicle
 
 const double speed_limit = 49.5; //mph
 const double lane_width = 4.0;
-const double safety_margin = 30.0;
+const double safety_margin = 40.0;
 const int n_points = 50;
 const double frame_sec = 0.02;
 const double angle_gap = M_PI/4;
