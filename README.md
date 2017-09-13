@@ -42,5 +42,9 @@
 - ***Summary***: We use finite state machine to plan the path on the highway.
 - ***Keywords***: Finite State Machine, Frenet Coordinate
 
+### [P12 Semantic Segmentation](https://github.com/LiyuanLacfo/SelfDrivingCarProject/tree/master/P12_SemanticSegmentation)
+- ***Summary***: We use Fully Convolutional Neural Network to detect where the road is. 
+- ***Keywords***: Deep Learning, Fully Convolutional Neural Network, Semantic Segmentation
+
 
 
